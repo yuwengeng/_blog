@@ -2,7 +2,7 @@ name: Hexo CICD
 on:
   push:
     branches:
-    - master
+    - dev
 jobs:
   deploy:
     name: hexo build & deploy
